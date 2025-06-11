@@ -8,7 +8,9 @@ import os
 # Use Gmail App Password if 2FA is enabled
 
 def send_email(email_subject, email_body, recipient_email):
+    # MODIFY THIS
     sender_email_address = os.environ['EMAIL_USER']
+    # MODIFY THIS
     sender_email_password = os.environ['EMAIL_PASS']
     
     # Create the email message (a draft)
