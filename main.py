@@ -16,7 +16,7 @@ for index, row in df.iterrows():
         continue
 
     interest_sample = random.choice(interests)
-
+    # MODIFY THIS
     Body = f"""Dear {name},
 
 My name is [Your Name], and I’m a [School Level] student with strong interests in {impact}. I came across your profile in the Cockrell School of Engineering directory and was fascinated by your work, particularly in {interest_sample}.
