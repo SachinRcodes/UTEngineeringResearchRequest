@@ -1,2 +1,6 @@
 # UTEngineeringResearchRequest
-Creates database of everyone on the cockrell school of engineering page and creates a draft of an email to send to them
+Creates a database of all faculty on the Cockrell School of Engineering page and creates a draft of an email to send to them
+
+To use, get all 3 files, modify the sender email and password  in emailSender.py, and the template in main.py
+
+If using with Gmail, you may have to create an app password to do so, enable 2FA and go to https://myaccount.google.com/apppasswords
